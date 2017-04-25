@@ -1,0 +1,138 @@
+/*Header*/
+#header {
+    background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("./../img/hmk.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+#headerimage{
+    width:74px;
+    height:74px;
+    float:left;
+    margin:1% 0 0 5%;
+  /*  border:20px solid #0070c9;*/
+}
+header{
+    font-family:  "brandon-grotesque", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+}
+ul{
+    list-style-type: none;
+    padding: 2% 4% 0 0;
+    overflow: hidden;
+}
+#headerli{
+    float:right;
+}
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size:1em;
+}
+li a:hover{
+    background-color: #111; 
+    text-decoration: none;
+    color:white;
+}
+
+#name{
+    font-size: 6em;
+    font-weight: bold;
+    font-family: "ProximaNovaA-Extrabld", Arial, sans-serif;
+    padding-top: 9%;
+    color:white;
+}
+#detail{
+    font-family: "ff-meta-serif-web-pro", Georgia, serif;
+    color:white;
+    font-size:2em;
+    padding:2% 0 3% 0;
+}
+#subdetail{
+    font-family: "Lucida Console", Monaco, monospace;
+    color:white;
+    font-size:1.5em;
+}
+/*About*/
+#buttons{               
+    text-align:center;
+    font-size:1.4em;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    padding:5% 0 5% 0;
+
+}
+#aboutbutton1,#aboutbutton2{          
+    text-decoration:none;   
+    color:black;
+    border-bottom: 4px solid #e55102;
+}
+#aboutMe{
+    font-size:130%;
+    font-family:" ff-meta-serif-web-pro", Georgia, serif;
+    color:grey;
+    line-height: 150%
+}
+.about_details {
+    color: #000731;
+    text-align: center;
+}
+#skills{
+    display:none; 
+    margin:10px auto 10px auto; 
+    max-width:1000px;
+}
+/*Projects*/
+.project {
+    background-color: black;
+    padding-bottom: 4%;
+}
+#project_image {
+    margin-left: 30%;
+    width:auto;
+    height: 350px;
+}
+
+.Contact {
+    background-color:#706d6d;
+    margin: 0 0 0 0;
+    padding: 0 0 4% 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#social_icon {
+    font-size: 2em;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#social_icon:hover {
+    background-color: white;
+    border-radius: 50%;
+    /*border: 2px solid black;*/
+    margin: 0 -3% 0 -3%;
+    color: black;
+    padding: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    li {
+        padding: 2% 1% 2% 1%;
+        font-size: 5px;
+    }
+    a:hover {
+        padding: .5% 1% .5% 1%;
+    }
+}
